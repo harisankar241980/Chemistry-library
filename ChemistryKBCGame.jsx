@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 // Simple CBSE Class 10 Chemistry KBC-style quiz game
 // Drop this component into a React app (e.g., App.jsx) and render it.
 
@@ -362,7 +363,6 @@ const ChemistryKBCGame = () => {
     setSelectedIndex(null);
     setShortAnswer("");
     setShowCorrectText(false);
-  }
   };
 
   const handleAnswer = (index) => {
@@ -603,7 +603,7 @@ const ChemistryKBCGame = () => {
                     );
                   })}
                 </div>
-              )
+              )}
             </div>
 
             {/* Lifelines / Power-ups */}
